@@ -1,0 +1,52 @@
+.CapFullPanel {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+.capfirst {
+    margin-right: 2%;
+ 
+}
+.capsecond {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.capthird {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.capfourth {
+    margin-left: 2%;
+}
+/* .back1{
+    display: none;
+}
+.back2{
+    display: none;
+}
+.back3{
+    display: none;
+}
+.back4{
+    display: none;
+} */
+.front {
+    width: 100%;
+    background-color: #cdcbc6;
+}
+.bek {
+    display: none;
+    width: 100%;
+    background-color: #e4e2dd;
+}
+.containe:hover .fran {
+    display:none
+}
+.containe:hover .bek {
+    display: inline;
+}
+p {
+    font-weight: bold;
+    font-family: 'Martel Sans', sans-serif;    
+    margin: 7px;
+}
