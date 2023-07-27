@@ -27,5 +27,5 @@ EssentSection.render(<EssentialSect />);
 const HighLightSect = ReactDOM.createRoot(document.getElementById('highlightedsection'));
 HighLightSect.render(<HighlightedSect />);
 
-const instaView = ReactDOM.createRoot(document.getElementById('instagram'));
-instaView.render(<InstagramPhotos />);
+// const instaView = ReactDOM.createRoot(document.getElementById('instagram'));
+// instaView.render(<InstagramPhotos />);
