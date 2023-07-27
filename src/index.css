@@ -1,13 +1,88 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  background-color: #e4e2dd;
+ }
+ .videobutton {
+     border: 2px solid black;
+     font-family: "Martel Sans", sans-serif;
+     color: azure;
+     font-size: 30px;
+ }
+ #headervideo {
+     position: relative;
+ }
+ #headervideo .videobutton {
+     position: absolute;
+     top: 40%;
+     left: 45%;
+     right: auto;
+     transform: translate(-50%. -50%);
+     -ms-transform : translate(-50%, -50%);
+     background-color: #555;
+     padding : 12px 24px;
+     border : none;
+     cursor : pointer;
+     border-radius: 5px;
+ }
+ #headervideo .videobutton:hover {
+     background-color: white;
+     color: blue;
+ }
+ .featuredheader {
+     display: flex;
+     justify-content: center;
+     margin-top: 5%;
+ }
+ 
+ /* h1 .featuredhead {
+     font-family: "Martel Sans", sans-serif;
+     font-size: 20px;
+ } */
+ /* img {
+     height: 50%;
+     width: 100%;
+ } */
+ .carhattbtn {
+     border: 2px solid black;
+     font-family: "Martel Sans", sans-serif;
+     color: azure;
+     font-size: 30px;
+ }
+ .carharttimg {
+     position: relative;
+     width: 100%;
+ }
+ .carharttimg .carhattbtn {
+     position: absolute;
+     top: 65%;
+     left: 0;
+     right: 0;
+     margin: auto;
+     transform: translate(-50%. -50%);
+     -ms-transform : translate(-50%, -50%);
+     background-color: #555;
+     padding : 12px 24px;
+     border : none;
+     cursor : pointer;
+     border-radius: 5px;
+ }
+ .carharttimg .carhattbtn:hover {
+     background-color: white;
+     color: blue;
+ }
+ .chboard {
+     width: 100%;
+ }
+ .lightbrd {
+     display: none;
+     width: 100%;
+ }
+ .carharttimg:hover .chboard {
+     display: none;
+ }
+ .carharttimg:hover .lightbrd {
+     display: inline;
+ }
+ #essentialsheadline {
+     display: flex;
+     justify-content: center;
+ }
