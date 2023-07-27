@@ -38,3 +38,4 @@ function FeaturedItemTop() {
          </div>
     )
 }
+export default FeaturedItemTop;
