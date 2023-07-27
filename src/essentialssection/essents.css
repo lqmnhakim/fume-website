@@ -1,0 +1,80 @@
+.firstrow {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+/* .secondrow {
+    display: flex;
+    justify-content: center;
+} */
+.leftbox {
+    margin-right: 2%;
+    position: relative;
+}
+.rightbox {
+    margin-left: 2%;
+}
+.secondrow {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+.mainbox {
+    display: block;
+}
+.top {
+    background-color: #cdcbc6;
+    position: relative;
+}
+.bot {
+    background-color: #cdcbc6;
+    
+}
+/* .leftbox .midbutton {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-50%. -50%);
+    -ms-transform : translate(-50%, -50%);
+    background-color: #555;
+    padding : 12px 24px;
+    border : none;
+    cursor : pointer;
+    border-radius: 5px;
+} */
+.topbox .topbtn {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-50%. -50%);
+    -ms-transform : translate(-50%, -50%);
+    background-color: #555;
+    padding : 12px 24px;
+    border : none;
+    cursor : pointer;
+    border-radius: 5px;
+}
+.topbox {
+    position: relative;
+}
+.botbox .botbtn {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-50%. -50%);
+    -ms-transform : translate(-50%, -50%);
+    background-color: #555;
+    padding : 12px 24px;
+    border : none;
+    cursor : pointer;
+    border-radius: 5px;
+}
+.botbox {
+    position: relative;
+}
