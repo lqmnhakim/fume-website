@@ -20,8 +20,8 @@ featuredBottom.render(<FeaturedBottom />);
 const featHead = ReactDOM.createRoot(document.getElementById('featuredheadwear'));
 featHead.render(<FeaturedCapSect />);
 
-// const EssentSection = ReactDOM.createRoot(document.getElementById('essentialitem'));
-// EssentSection.render(<EssentialSect />);
+const EssentSection = ReactDOM.createRoot(document.getElementById('essentialitem'));
+EssentSection.render(<EssentialSect />);
 
-// const HighLightSect = ReactDOM.createRoot(document.getElementById('highlightedsection'));
-// HighLightSect.render(<HighlightedSect />);
+const HighLightSect = ReactDOM.createRoot(document.getElementById('highlightedsection'));
+HighLightSect.render(<HighlightedSect />);
