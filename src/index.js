@@ -6,6 +6,7 @@ import FeaturedItemPic from './featureditemtop/featureditemtop';
 import FeaturedBottom from './featureditembot/featuredbot';
 import FeaturedCapSect from './featuredcaps/featuredcaps';
 import EssentialSect from './essentialssection/essents';
+import HighlightedSect from './highlightsection/highlight';
 
 const root = ReactDOM.createRoot(document.getElementById('navigationbar'));
 root.render(<App />);
@@ -21,3 +22,6 @@ featHead.render(<FeaturedCapSect />);
 
 const EssentSection = ReactDOM.createRoot(document.getElementById('essentialitem'));
 EssentSection.render(<EssentialSect />);
+
+const HighLightSect = ReactDOM.createRoot(document.getElementById('highlightedsection'));
+HighLightSect.render(<HighlightedSect />);

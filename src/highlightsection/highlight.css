@@ -1,0 +1,42 @@
+.featimage {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.featimg {
+    width: 100%;
+}
+.featimgback {
+    display: none;
+    width: 100%;
+}
+.featimage .stussybtn {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-50%. -50%);
+    -ms-transform : translate(-50%, -50%);
+    background-color: #555;
+    padding : 12px 24px;
+    border : none;
+    cursor : pointer;
+    border-radius: 5px;
+}
+.featimage:hover .featimgback {
+    display: inline;
+}
+.featimage:hover .featimg {
+    display: none;
+}
+.stussybtn:hover {
+    background-color: white;
+    color: blue;
+}
+.stussybtn {
+    border: 2px solid black;
+    font-family: "Martel Sans", sans-serif;
+    color: azure;
+    font-size: 30px;
+}
