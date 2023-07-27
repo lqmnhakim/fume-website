@@ -54,7 +54,7 @@
     axios.get(apiUrl)
       .then(response => {
         const photos = response.data.data;
-        const instagramPhotosContainer = document.getElementById("instagramPhotos");
+        const instagramPhotosContainer = document.getElementById("instagram");
 
         photos.forEach(photo => {
           const link = document.createElement("a");
