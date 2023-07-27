@@ -1,14 +1,14 @@
 import './featureditemtop.css'
-import beigefront from './assets/beigefront.png'
-import hoodieback from './assets/hoodieback.png'
-import chocfront from './assets/chocfront.png'
-import chocback from './assets/chocback.png'
-import bluefront from './assets/bluefront.png'
-import blueback from './assets/blueback.png'
-import greenfront from './assets/greenfront.png'
-import greenback from './assets/greenback.png'
+import beigefront from './beigefront.png'
+import hoodieback from './hoodieback.png'
+import chocfront from './chocfront.png'
+import chocback from './chocback.png'
+import bluefront from './bluefront.png'
+import blueback from './blueback.png'
+import greenfront from './greenfront.png'
+import greenback from './greenback.png'
 
-function FeaturedItemTop() {
+function FeaturedItemPic() {
     return (
         <div id='picturelayout'>
              <div className='firstbox'>
@@ -38,4 +38,4 @@ function FeaturedItemTop() {
          </div>
     )
 }
-export default FeaturedItemTop;
+export default FeaturedItemPic;
