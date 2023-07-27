@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const token = 'IGQVJVaDdpa3RReHhmbU5OdDdxeG1mb1lRNHEwR05vOWlZAVXJma0lBU19kZAjJEVmczWUFsWG1DeWIxR1ZAIRWJJVmJHMG9aeGx6ZAl9nZAElCb2hfT2kzcFd4c0FfbklPcXMwVjVCbGxidHFydHBxNVlUbQZDZD'; // Your access token here
+const token = 'IGQVJXOTYzeGZAacjF3VF90RURrc2g0aWhYQXFBNXJJOTFOLVhjZAll0NkxFcXJRVDYtM3ZAERnRmdlFOUTl5OEJBV1BFcmFHMVBBajkwTGtINGxtMnpqSE41WElDbDZAYVlA4NXVaYzBUc183SklWNWVoYgZDZD'; // Your access token here
 const numPhotos = 5;
 
 const InstagramPhotos = () => {
