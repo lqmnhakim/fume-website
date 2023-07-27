@@ -29,20 +29,6 @@
 .bot {
     background-color: #cdcbc6;   
 }
-/* .leftbox .midbutton {
-    position: absolute;
-    top: 65%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    transform: translate(-50%. -50%);
-    -ms-transform : translate(-50%, -50%);
-    background-color: #555;
-    padding : 12px 24px;
-    border : none;
-    cursor : pointer;
-    border-radius: 5px;
-} */
 .topbox .topbtn {
     position: absolute;
     top: 65%;
