@@ -33,3 +33,4 @@ instaView.render(<InstagramPhotos />);
 
 const footerSectionBar = ReactDOM.createRoot(document.getElementById('footersction'));
 footerSectionBar.render(<FooterSects />);
+

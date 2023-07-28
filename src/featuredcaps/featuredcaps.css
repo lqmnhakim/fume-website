@@ -4,8 +4,7 @@
     margin: 5%;
 }
 .capfirst {
-    margin-right: 2%;
- 
+    margin-right: 2%; 
 }
 .capsecond {
     margin-left: 2%;
@@ -18,18 +17,6 @@
 .capfourth {
     margin-left: 2%;
 }
-/* .back1{
-    display: none;
-}
-.back2{
-    display: none;
-}
-.back3{
-    display: none;
-}
-.back4{
-    display: none;
-} */
 .front {
     width: 100%;
     background-color: #cdcbc6;
@@ -49,4 +36,12 @@ p {
     font-weight: bold;
     font-family: 'Martel Sans', sans-serif;    
     margin: 7px;
+}
+
+@media screen and (max-width:700px) {
+    .bek {
+        display: none;
+        width: 100%;
+        background-color: #e4e2dd;
+    }
 }

@@ -46,10 +46,14 @@
         right: 0;
         margin: auto;
         background-color: #555;
-        padding: 12px 24px;
+        padding: 2%;
         border: none;
         cursor: pointer;
         border-radius: 5px;
         font-size: 12px;
+    }
+    .featimgback {
+        display: none;
+        width: 100%;
     }
 }

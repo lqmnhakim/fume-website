@@ -95,8 +95,27 @@ h5 {
 section ni untuk phone view */
 
 @media screen and (max-width:700px) {
-
     p {
         font-size: 10px;
+    }
+    .firstback {
+        width: 100%;
+        display: none;
+        background-color: #e4e2dd;  
+    }
+    .thirdback {
+        width: 100%;
+        background-color: #e4e2dd;
+        display: none;
+    }
+    .fourthback {
+        width: 100%;
+        background-color: #e4e2dd;
+        display: none;
+    }
+    .fifthback {
+        background-color: #e4e2dd;
+        width: 100%;
+        display: none;
     }
 }
