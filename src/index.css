@@ -110,3 +110,8 @@ body {
     transition: transform 0.3s ease;
     overflow: hidden;
 }
+#socialmediapresence {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}

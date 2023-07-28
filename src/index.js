@@ -8,6 +8,7 @@ import FeaturedCapSect from './featuredcaps/featuredcaps';
 import EssentialSect from './essentialssection/essents';
 import HighlightedSect from './highlightsection/highlight';
 import InstagramPhotos from './instagramsection/instasect';
+import FooterSects from './footersection/footersect';
 
 const root = ReactDOM.createRoot(document.getElementById('navigationbar'));
 root.render(<App />);
@@ -29,3 +30,6 @@ HighLightSect.render(<HighlightedSect />);
 
 const instaView = ReactDOM.createRoot(document.getElementById('instagram'));
 instaView.render(<InstagramPhotos />);
+
+const footerSectionBar = ReactDOM.createRoot(document.getElementById('footersction'));
+footerSectionBar.render(<FooterSects />);
