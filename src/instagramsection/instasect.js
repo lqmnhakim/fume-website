@@ -3,7 +3,7 @@ import './instasect.css'
 import React, { useState, useEffect } from 'react';
 
 const InstagramPhotos = () => {
-  const userAccessToken = 'IGQVJVY1o5Q29CZAWdNdzdiT08wNWd1c2hSLWZAtWWl2Sl9PbFVwWHZAvMUd0ZAm9IS3dTSDB2emNUNTZArWkxSRkR2LXpQMmV1ZAHhrZAEUwTFZAxWkRTcmJZAV284a1ppWTNiNVdVeVNueS1VRXpTUEVWYmY5VgZDZD';
+  const userAccessToken = 'IGQVJYOGdpbUp4RlZA5RE03T3JDM2FTZA0pkc0pCNWVpZA2F0dWpYVGVVLW5IcG5kdkZAaV1R2M3VGQ19EZA0hreGI3d0YzQktFQjktMGtPbHU1bHJTRTd6NWc1MlJpbE5DdGhPYXZAJUFNEYjRyWnZAIMzZA3cQZDZD';
   const numPhotos = 3;
   const apiUrl = `https://graph.instagram.com/me/media?fields=id,caption,media_url,permalink,likes&access_token=${userAccessToken}&limit=${numPhotos}`;
 
