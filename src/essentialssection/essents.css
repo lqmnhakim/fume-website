@@ -63,3 +63,35 @@
     background-color: white;
     color: blue;
 }
+.sze {
+    width: 100%;
+}
+
+@media screen and (max-width:700px) {
+    .topbox .topbtn {
+        position: absolute;
+        top: 65%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #555;
+        padding: 3px 6px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .botbox .botbtn {
+        position: absolute;
+        top: 65%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #555;
+        padding: 3px 6px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+}

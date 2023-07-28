@@ -91,3 +91,12 @@ h5 {
     display: flex;
     justify-content: center;
 }
+/* 
+section ni untuk phone view */
+
+@media screen and (max-width:700px) {
+
+    p {
+        font-size: 10px;
+    }
+}

@@ -9,17 +9,17 @@ function FooterSects() {
         </div>
         <div className='footermiddlesect onerow'>
             <div className='helpsection onerowtext'>
-                <p>Help</p>
-                <p>Shipping Details</p>
-                <p>FAQs</p>
+                <p className='footertext'>Help</p>
+                <p className='footertext'>Shipping</p>
+                <p className='footertext'>FAQs</p>
             </div>
         </div>
         <div className='footerrightsect onerow'>
             <div className='reachoutsection onerowtext'>
            
-            <p>Instagram Handle</p>
-            <p>Phone Number</p>
-            <p>Twitter Handle</p>
+            <p className='footertext'>Instagram </p>
+            <p className='footertext'>Phone </p>
+            <p className='footertext'>Twitter</p>
             </div>
         </div>
     </div>

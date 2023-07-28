@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="headernavcontainer">  
     <div className='fumeheadpic'>
-        <img src={fume} alt='fume logo'></img>
+        <img className='fumeheadlogo' src={fume} alt='fume logo'></img>
     </div>
     <div className='headernavline'>
         <button className='headerbutton'>fume.</button>

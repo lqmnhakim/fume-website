@@ -15,8 +15,6 @@ body {
      top: 40%;
      left: 45%;
      right: auto;
-     transform: translate(-50%. -50%);
-     -ms-transform : translate(-50%, -50%);
      background-color: #555;
      padding : 12px 24px;
      border : none;
@@ -69,6 +67,9 @@ body {
      background-color: white;
      color: blue;
  }
+ .featpic {
+    width: 100%;
+ }
  .chboard {
      width: 100%;
  }
@@ -114,4 +115,28 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    width: 100%;
+}
+.socmed {
+    width: 100%;
+    margin: 2%;
+}
+
+/* this section untuk view phone */
+
+@media screen and (max-width:700px) {
+    .phonesize {
+        font-size: 10px
+    }
+    #headervideo .videobutton {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #555;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
 }

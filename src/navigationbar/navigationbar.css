@@ -7,7 +7,9 @@
   justify-content: space-around;
   border-color: black;
   background-color: white;
-  
+}
+.fumeheadlogo {
+  width: 100%;
 }
 .mensdropdown {
   color: black;
@@ -88,4 +90,13 @@ div .headernavcontainer {
 }
 button {
   font-family: 'Martel Sans', sans-serif;
+}
+
+/* this section untuk phone view  */
+
+@media screen and (max-width:700px) {  
+  .headernavline {
+    display: none;
+  }
+ 
 }

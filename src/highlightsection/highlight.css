@@ -16,8 +16,6 @@
     left: 0;
     right: 0;
     margin: auto;
-    transform: translate(-50%, -50%);
-    -ms-transform : translate(-50%, -50%);
     background-color: #555;
     padding : 12px 24px;
     border : none;
@@ -39,4 +37,19 @@
     font-family: "Martel Sans", sans-serif;
     color: azure;
     font-size: 30px;
+}
+
+@media screen and (max-width:700px) {
+    .featimage .stussybtn {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #555;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 12px;
+    }
 }
