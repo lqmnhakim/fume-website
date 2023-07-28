@@ -3,3 +3,9 @@
     justify-content: space-evenly;
     width: 100%;
 }
+.hvrinsta{
+    overflow:hidden;
+}
+.hvrinsta:hover {
+    transform: scale(1.1);
+}
