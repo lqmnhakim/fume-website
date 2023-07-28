@@ -86,8 +86,27 @@ body {
      display: flex;
      justify-content: center;
  }
- #instagram {
+ .instagrambox img {
+    margin: 2%;
+    width: 100%;
+    max-width: 500px;
+    
+ } 
+ .instagrambox {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
  }
- 
+.minibox {
+    display: block;
+    justify-content: center;
+    margin-left: 5%;
+    margin-left: 5%;
+}
+.minibox:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}

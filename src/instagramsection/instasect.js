@@ -1,39 +1,42 @@
-// import React, { useEffect, useState } from 'react';
-// import axios from 'axios';
 
-// const token = 'IGQVJXOTYzeGZAacjF3VF90RURrc2g0aWhYQXFBNXJJOTFOLVhjZAll0NkxFcXJRVDYtM3ZAERnRmdlFOUTl5OEJBV1BFcmFHMVBBajkwTGtINGxtMnpqSE41WElDbDZAYVlA4NXVaYzBUc183SklWNWVoYgZDZD'; // Your access token here
-// const numPhotos = 5;
+import './instasect.css'
+import React, { useState, useEffect } from 'react';
 
-// const InstagramPhotos = () => {
-//   const [photos, setPhotos] = useState([]);
+const InstagramPhotos = () => {
+  const userAccessToken = 'IGQVJYdURUT1dWZAGdHX0JFQTIyaTZAYZAkU0eUFKaWlMUDI1QXVKWXZAwdk5zM09Xa0RSMG9BaEdQZAV9kdmIxLXFIR2FxYkRzZA2hmblZA1RncxUkNPVDRzRU5iYUFOZAWwzZAm12emdVaWozUms5cklUQ2JCcgZDZD';
+  const numPhotos = 3;
+  const apiUrl = `https://graph.instagram.com/me/media?fields=id,caption,media_url,permalink,likes&access_token=${userAccessToken}&limit=${numPhotos}`;
 
-//   useEffect(() => {
-    
-//     const apiUrl = `https://api.instagram.com/users/self/media/recent?access_token=${token}&count=${numPhotos}`;
+  const [photosData, setPhotosData] = useState([]);
 
-//     axios.get(apiUrl)
-//       .then(response => {
-//         const data = response.data;
-//         setPhotos(data.data);
-//       })
-//       .catch(error => {
-//         console.error('Error fetching Instagram photos:', error);
-//       });
-//   }, []);
+  useEffect(() => {
+    const fetchInstagramData = async () => {
+      try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        setPhotosData(data.data);
+      } catch (error) {
+        console.error('Error fetching Instagram photos:', error);
+      }
+    };
 
-//   return (
-//     <div>
-//       <ul>
-//         {photos.map(photo => (
-//           <li key={photo.id}>
-//             <a target="_blank" rel="noopener noreferrer" href={photo.link}>
-//               <img src={photo.images.low_resolution.url} alt="Instagram Photo" />
-//             </a>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   )
-// };
+    fetchInstagramData();
+  }, []);
 
-// export default InstagramPhotos;
+  return (
+    <div className='instagrambox'>
+      {photosData.map((photo) => (
+        <div className='minibox' key={photo.id}>
+          <a href={photo.permalink} target="_blank">
+            <img className='instaimage' src={photo.media_url} alt={photo.caption} />
+          </a> 
+          <p> ❤︎ {photo.likes ? photo.likes.summary.total_count : ' Hidden'}</p>
+          <p>{photo.caption}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default InstagramPhotos;
+
