@@ -1,0 +1,6 @@
+.featuredbackground {
+    background-color: #e4e2dd;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

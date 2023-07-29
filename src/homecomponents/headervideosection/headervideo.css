@@ -1,0 +1,24 @@
+.videobutton {
+    border: 2px solid black;
+    font-family: "Martel Sans", sans-serif;
+    color: azure;
+    font-size: 24px;
+}
+#headervideo {
+    position: relative;
+}
+#headervideo .videobutton {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    right: auto;
+    background-color: #555;
+    padding : 1%;
+    border : none;
+    cursor : pointer;
+    border-radius: 5px;
+}
+#headervideo .videobutton:hover {
+    background-color: white;
+    color: blue;
+}

@@ -1,0 +1,102 @@
+.headernavcontainer {
+  margin: 0;
+  padding: 0;
+}
+.headernavline {
+  display: flex;
+  justify-content: space-around;
+  border-color: black;
+  background-color: white;
+}
+.fumeheadlogo {
+  width: 100%;
+}
+.mensdropdown {
+  color: black;
+  background: none;
+  font-size: 25px;
+  padding: 15px 32px;
+  border: none;   
+}
+.womensdropdown {
+  color: black;
+  background: none;
+  font-size: 25px;
+  padding: 15px 32px;
+  border: none;   
+}
+.headerbutton {
+  border: none;
+  background-color: white;
+  font-size: 25px;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  border: none;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content1 button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content1 button:hover {
+  background-color: white;
+}
+.dropdown-content2 button:hover {
+  background-color: white;
+}
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+.dropdown-content2 button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+div .headernavcontainer {
+  background-color: #e4e2dd;
+  height: 100%;
+  display: block;
+}
+.fumeheadpic {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+button {
+  font-family: 'Martel Sans', sans-serif;
+}
+
+/* this section untuk phone view  */
+
+@media screen and (max-width:700px) {  
+  .headernavline {
+    display: none;
+  }
+ 
+}
