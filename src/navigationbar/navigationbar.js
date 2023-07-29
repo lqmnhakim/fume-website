@@ -1,6 +1,8 @@
 import fume from './fume.png'
 import './navigationbar.css';
 
+const backstageLink = '../public/fumebackstage.hmtl'
+
 function App() {
   return (
     <div className="headernavcontainer">  
@@ -8,7 +10,7 @@ function App() {
         <img className='fumeheadlogo' src={fume} alt='fume logo'></img>
     </div>
     <div className='headernavline'>
-        <button className='headerbutton'>fume.</button>
+        <button className='headerbutton' href={backstageLink} >fume.</button>
         <button className='headerbutton'>fume backstage</button>
           <div className='dropdown'>
             <button className='dropbtn'>clothes</button>
