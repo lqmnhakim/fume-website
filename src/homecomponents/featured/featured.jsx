@@ -4,7 +4,7 @@ import './featured.css'
 function FeatHead() {
     return (
         <div className='featuredbackground'>
-            <img src={featured}></img>
+            <img className='featheader' src={featured}></img>
         </div>
     )
 }

@@ -30,7 +30,7 @@ body {
   color: black;
   background: none;
   font-size: 25px;
-  padding: 15px 32px;
+  padding: 2% 2%;
   border: none;   
 }
 .womensdropdown {
@@ -58,6 +58,16 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+}.dropdowncontentmobile {
+  display: none;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 100%;
+}
+.dropdownmobile:hover .dropdowncontentmobile {
+  display: flex;
+  flex-direction: column;
 }
 .dropdown-content1 button {
   color: black;
@@ -66,32 +76,13 @@ body {
   display: block;
   text-align: center;
 }
-.dropdown-content2 {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
 .dropdown-content1 button:hover {
-  background-color: white;
-}
-.dropdown-content2 button:hover {
   background-color: white;
 }
 .dropdown:hover .dropdown-content1 {
   display: block;
 }
-.dropdown2:hover .dropdown-content2 {
-  display: block;
-}
-.dropdown-content2 button {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+
 div .headernavcontainer {
   background-color: #e4e2dd;
   height: 100%;
@@ -106,20 +97,51 @@ div .headernavcontainer {
 button {
   font-family: 'Martel Sans', sans-serif;
 }
-.phonespcl {
+.dropbtnmobile {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  border: none;
+}
+.dropdownmobile {
   display: none;
 }
+
+
 
 /* this section untuk phone view  */
 
 @media screen and (max-width:700px) {  
 .phonespcl {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 .spcl {
   display: none;
 }
 .phonespcl:active {
   background: #e4e2dd;
+}
+
+.phoneviewbutton.show-dropdown .drop-down-content1 {
+  display: flex;
+  flex-direction: column;
+}
+.dropdownmobile:hover {
+  display: flex;
+  flex-direction: column;
+  
+}
+.drop-down-content {
+  display: none;
+}
+.dropDownContent button {
+  position: absolute;
+  z-index: 1;
+}
+.dropdownmobile {
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
 }

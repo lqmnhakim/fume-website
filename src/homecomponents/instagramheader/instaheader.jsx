@@ -4,7 +4,7 @@ import './instaheader.css'
 function SocMedHeader () {
     return (
         <div className='insthead'>
-        <img  src={socialmediapresence}></img>
+        <img className='instaheader' src={socialmediapresence}></img>
         </div>
     )
 }

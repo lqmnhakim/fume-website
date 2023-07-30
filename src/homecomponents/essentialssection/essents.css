@@ -29,8 +29,8 @@
 .topbox .topbtn {
     position: absolute;
     top: 65%;
-    left: 0;
-    right: 0;
+    left: 30%;
+    right: 30%;
     margin: auto;
     background-color: #555;
     padding: 12px 24px;
@@ -44,8 +44,8 @@
 .botbox .botbtn {
     position: absolute;
     top: 65%;
-    left: 0;
-    right: 0;
+    left: 30%;
+    right: 30%;
     margin: auto;
     background-color: #555;
     padding: 12px 24px;
@@ -68,8 +68,8 @@
     .topbox .topbtn {
         position: absolute;
         top: 65%;
-        left: 0;
-        right: 0;
+        left: 20%;
+        right: 20%;
         margin: auto;
         background-color: #555;
         padding: 2%;
@@ -81,8 +81,8 @@
     .botbox .botbtn {
         position: absolute;
         top: 65%;
-        left: 0;
-        right: 0;
+        left: 20%;
+        right: 20%;
         margin: auto;
         background-color: #555;
         padding: 2%;

@@ -4,7 +4,7 @@ import './essentialsheader.css'
 function EssentsHeader() {
     return (
         <div className='esstsheadline'>
-            <img src={essentialsheadlineheader}></img>
+            <img className='essentheader' src={essentialsheadlineheader}></img>
         </div>
     )
 }

@@ -6,50 +6,54 @@ import fume from './fume.png'
 import './pagenavigation.css'
 import ShopMain from '../shoppage/shoppage';
 
+
+
 const PageNavi = () => {
   return (
     <Router>
-    <div className="headernavcontainer">  
-      <div className='fumeheadpic'>
-        <img className='fumeheadlogo' src={fume} alt='fume logo'></img>
-    </div>
-    <div className='headernavline'>
-    <div className='buttonnavbar'>
-        <Link to='/'><button className='headerbutton spcl'>fume.</button></Link>
-        <Link to='/backstage'><button className='headerbutton spcl'>fume backstage</button></Link>
-          <div className='dropdown'>
-            <Link to='/shoppage'><button className='dropbtn spcl'>clothes</button></Link>
-              <div className='dropdown-content1'>
-                <button className='mensdropdown'>top</button>
-                <button className='mensdropdown spcl'>bottom</button>
-                <button className='mensdropdown spcl'>outerwear</button> 
-              </div>
-          </div>
-          <div className='dropdown2'>
-            <button className='dropbtn spcl'>accessories</button>
-          </div>
-        <button className='headerbutton spcl'>SNKRS</button>
-          <div className='dropdown phonedrop'>
-            <button className='dropbtn phonespcl'>fume.</button>
-              <div className='dropdown-content1'>
+      <div className="headernavcontainer">  
+        <div className='fumeheadpic'>
+          <img className='fumeheadlogo' src={fume} alt='fume logo'></img>
+        </div>
+        <div className='headernavline'>
+          <div className='buttonnavbar'>
+            <Link to='/'><button className='headerbutton spcl'>fume.</button></Link>
+            <Link to='/backstage'><button className='headerbutton spcl'>fume backstage</button></Link>
+            <div className='dropdown'>
+              <Link to='/shoppage'><button className='dropbtn spcl'>clothes</button></Link>
+                <div className='dropdown-content1'>
+                  <button className='mensdropdown'>top</button>
+                  <button className='mensdropdown spcl'>bottom</button>
+                  <button className='mensdropdown spcl'>outerwear</button> 
+                </div>
+            </div>
+          
+            <div className='dropdown2'>
+              <button className='dropbtn spcl'>accessories</button>
+            </div>
+            <div className=''>
+              <button className='headerbutton spcl'>SNKRS</button>
+            </div>
+            </div> 
+          </div>  
+          <div className='dropdownmobile'>
+              <button className='dropbtnmobile'>fume.</button>
+              <div className='dropdowncontentmobile'>
+                <button className='mensdropdown'>home</button>
                 <button className='mensdropdown'>backstage</button>
                 <button className='mensdropdown'>clothes</button>
                 <button className='mensdropdown'>accessories</button>
                 <button className='mensdropdown'>SNKRS</button>
               </div>
           </div>
-
-        </div> 
         
         <Routes>
         <Route path='/' element={<HomePageMain />} />
         <Route path='/backstage' element={<BackStage />} />
         <Route path='/shoppage' element={<ShopMain />} />
         </Routes>
-    </div>
-        
-  </div>
-  </Router>
+      </div>
+    </Router>
   )
 
 };

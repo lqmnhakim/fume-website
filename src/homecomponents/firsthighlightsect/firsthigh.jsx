@@ -8,7 +8,9 @@ function FirstHighlight() {
         <div className='carharttimg'>
             <img className='chboard crht' src={lightcarhart}></img>
             <img className='lightbrd crht' src={darkcarhart}></img>
-            <button className='carhattbtn phonesize'>fume.</button>
+                <div className='crhtbttn'>
+                    <button className='carhattbtn phonesize'>fume.</button>
+                </div>           
         </div>
     )
 }
