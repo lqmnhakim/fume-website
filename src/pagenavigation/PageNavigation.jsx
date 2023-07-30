@@ -37,11 +37,11 @@ const PageNavi = () => {
             </div> 
           </div>  
           <div className='dropdownmobile'>
-              <button className='dropbtnmobile'>fume.</button>
+              <button className='dropbtnmobile'>===</button>
               <div className='dropdowncontentmobile'>
-                <button className='mensdropdown'>home</button>
-                <button className='mensdropdown'>backstage</button>
-                <button className='mensdropdown'>clothes</button>
+                <Link to='/'><button className='mensdropdown'>fume.</button></Link>
+                <Link to='/backstage'><button className='mensdropdown'>backstage</button></Link>
+                <Link to='/shoppage'><button className='mensdropdown'>Store</button></Link>
                 <button className='mensdropdown'>accessories</button>
                 <button className='mensdropdown'>SNKRS</button>
               </div>
