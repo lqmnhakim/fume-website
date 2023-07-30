@@ -106,12 +106,20 @@ div .headernavcontainer {
 button {
   font-family: 'Martel Sans', sans-serif;
 }
+.phonespcl {
+  display: none;
+}
 
 /* this section untuk phone view  */
 
 @media screen and (max-width:700px) {  
-  .headernavline {
-    display: none;
-  }
- 
+.phonespcl {
+  display: block;
+}
+.spcl {
+  display: none;
+}
+.phonespcl:active {
+  background: #e4e2dd;
+}
 }

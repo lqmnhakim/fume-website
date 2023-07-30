@@ -1,11 +1,12 @@
 import React from "react";
-import NavBack from "./navigationbarback/navigationbarback";
+import './backstage.css'
+
 
 const BackStage = () => {
     return (
         <div className='backstagepage'>
             <div>
-                <NavBack />
+               <h1>testtt</h1>
             </div>
         </div>
     )

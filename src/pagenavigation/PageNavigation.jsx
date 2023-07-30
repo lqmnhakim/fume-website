@@ -4,6 +4,7 @@ import HomePageMain from '../homepage';
 import BackStage from '../backstagecomponents/backstage';
 import fume from './fume.png'
 import './pagenavigation.css'
+import ShopMain from '../shoppage/shoppage';
 
 const PageNavi = () => {
   return (
@@ -14,24 +15,36 @@ const PageNavi = () => {
     </div>
     <div className='headernavline'>
     <div className='buttonnavbar'>
-        <Link to='/'><button className='headerbutton'>fume.</button></Link>
-        <Link to='/backstage'><button className='headerbutton'>fume backstage</button></Link>
+        <Link to='/'><button className='headerbutton spcl'>fume.</button></Link>
+        <Link to='/backstage'><button className='headerbutton spcl'>fume backstage</button></Link>
           <div className='dropdown'>
-            <button className='dropbtn'>clothes</button>
+            <Link to='/shoppage'><button className='dropbtn spcl'>clothes</button></Link>
               <div className='dropdown-content1'>
                 <button className='mensdropdown'>top</button>
-                <button className='mensdropdown'>bottom</button>
-                <button className='mensdropdown'>outerwear</button> 
+                <button className='mensdropdown spcl'>bottom</button>
+                <button className='mensdropdown spcl'>outerwear</button> 
               </div>
           </div>
           <div className='dropdown2'>
-            <button className='dropbtn'>accessories</button>
+            <button className='dropbtn spcl'>accessories</button>
           </div>
-        <button className='headerbutton'>SNKRS</button>
+        <button className='headerbutton spcl'>SNKRS</button>
+          <div className='dropdown phonedrop'>
+            <button className='dropbtn phonespcl'>fume.</button>
+              <div className='dropdown-content1'>
+                <button className='mensdropdown'>backstage</button>
+                <button className='mensdropdown'>clothes</button>
+                <button className='mensdropdown'>accessories</button>
+                <button className='mensdropdown'>SNKRS</button>
+              </div>
+          </div>
+
         </div> 
+        
         <Routes>
         <Route path='/' element={<HomePageMain />} />
-        <Route path='/backstagecomponents/backstage' element={<BackStage />} />
+        <Route path='/backstage' element={<BackStage />} />
+        <Route path='/shoppage' element={<ShopMain />} />
         </Routes>
     </div>
         

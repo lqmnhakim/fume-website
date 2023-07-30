@@ -1,0 +1,19 @@
+.shoptoprow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.shoppic {
+    width: 100%;
+    background-color: #cdcbc6;
+}
+.tpleft {
+    margin: 2%;
+}
+.shopmainz {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #e4e2dd;
+}
+.topboxphoto {
+    margin:2%
+}
