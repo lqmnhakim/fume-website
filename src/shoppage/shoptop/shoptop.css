@@ -1,15 +1,18 @@
 .shoptoprow {
     display: flex;
     justify-content: space-evenly;
+ 
 }
 .shoppic {
     width: 100%;
-    background-color: #cdcbc6;
+    background-color: #cdcbc6
 }
 .tpleft {
     margin: 2%;
+    padding: 3%;
+    display: block;
 }
-.shopmainz {
+.shoprow{
     padding-left: 2%;
     padding-right: 2%;
     background-color: #e4e2dd;
@@ -17,3 +20,19 @@
 .topboxphoto {
     margin:2%
 }
+/* Hide the back image by default */
+.tpleft .shirtback {
+    display: none;
+}
+.shirtfront {
+    display: none;
+}
+.tpleft:hover .shirtfront {
+    display: none;
+}  
+  /* When hovering over .tpleft, make the .shirtback visible */
+  .tpleft:hover .shirtback {
+    display: inline;
+} 
+  
+
