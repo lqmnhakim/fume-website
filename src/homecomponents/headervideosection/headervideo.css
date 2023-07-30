@@ -40,7 +40,7 @@
         border-radius: 5px;
         font-size: 20px;
     }
-    .headervideo {
+    #headervideo {
         display: none;
     }
 }
